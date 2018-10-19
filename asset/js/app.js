@@ -71,7 +71,8 @@ const agregar= ()=>{
         
         document.querySelector("#fecha").value = item.childNodes[0].textContent; 
         document.querySelector("#descp").value = item.childNodes[1].textContent; 
-        document.querySelector("#cant").value = item.childNodes[2].textContent; 
+        document.querySelector("#cant").value = item.childNodes[2].textContent;
+            //dffsfdf
         }); 
     });
     console.log(eventtr);             
